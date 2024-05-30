@@ -1,0 +1,204 @@
+.productPage{
+    margin: 0;
+    width: full;
+    height: auto;
+}
+
+/* left side info */
+.productPage .infoWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* width: 60%; */
+}
+.productPage .basicInfo{
+    width: 70%;
+    margin: 0 2rem;
+}
+
+.productPage .heading p{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: .1rem;
+    }
+.productPage .Image{
+    background-color: rgb(250, 220, 224);
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+}
+.productPage .Image img{
+    /* position: relative; */
+    width: 330px;
+    height: 330px;
+    padding-left: .3rem ;
+}
+
+.productPage .back{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    opacity: .7rem;
+}
+.productPage .heading{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.productPage .rating{
+    background-color: rgb(15, 185, 15);
+    color: white;
+    padding: .3rem ;
+    border-radius: .3rem;
+   text-align: center;
+}
+.productPage .timer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.productPage .timer .timeIcon{
+    color: orangered;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.line{
+    /* position: absolute; */
+margin: 3rem 0 ;
+    width: 110%;
+    height: .35rem;
+    background-color: rgb(212, 209, 209);
+}
+.productPage .timer p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productPage .star{
+    /* margin-top: .3rem; */
+    margin-left: .3rem;
+    width: .8rem;
+    height: .8rem;
+}
+.productPage .desc, .grey{
+    color: grey;
+}
+.productPage .ingredients{
+    margin-top: -1rem;
+    line-height: .4rem;
+}
+.productPage .detailWrapper{
+margin: 0  2rem;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+.productPage .vege{
+    display: flex;
+    justify-content: flex-start;
+}
+.productPage .spice{
+    display: flex;
+    justify-content: flex-start;
+    /* margin-top: .5rem; */
+}
+.productPage ul, .productPage li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: .2rem;
+
+}
+.productPage li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.productPage .detail{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: .2rem;
+}
+
+/* Appliacses */
+.productPage .applianceList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+.productPage .applianceInfo{
+background-color: rgb(235, 230, 230);
+padding: .5rem;
+}
+.productPage .fridge{
+    color: rgb(112, 107, 107);
+    margin: .5rem 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+
+/* Responsive design */
+@media (max-width: 480px) {
+
+    .productPage{
+        margin: 0;
+        width: full;
+        height: auto;
+    }
+    
+    .productPage .basicInfo{
+        width: 60%;
+        margin: 0 1rem;
+    }
+    
+.productPage .heading p{
+    font-size: 20px;
+    font-weight: 600;
+    }
+    .productPage .Image{
+        width: 150px;
+        height: 150px;
+    }
+    .productPage .Image img{
+        /* position: relative; */
+        width: 150px;
+        height: 200px;
+        padding-left: .3rem ;
+    }
+    
+    .productPage .back{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 1rem;
+        margin-left: .5rem;
+        opacity: .7rem;
+    }
+    .productPage .applianceList{
+        gap: 1rem;
+    }
+    .productPage .applianceInfo{
+    padding: .1rem .5rem;
+    }
+    .productPage .fridge{
+        color: rgb(112, 107, 107);
+        margin: .5rem 1rem;
+        width: 1.5rem;
+        height: 2rem;
+    }
+    
+}
